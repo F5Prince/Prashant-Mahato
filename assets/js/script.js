@@ -12,6 +12,12 @@
 var currentTheme = localStorage.getItem('theme') || 'dark';
 setTheme(currentTheme);
 
+window.addEventListener('load', function () {
+    if (window.location.hash === '#hero') {
+        history.replaceState(null, null, window.location.pathname);
+    }
+});
+
 // Event listener for the switch theme button
 var switchThemeBtn = document.getElementById('switchTheme');
 if (switchThemeBtn) {
