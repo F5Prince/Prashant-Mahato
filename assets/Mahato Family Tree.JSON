@@ -1,0 +1,1803 @@
+[
+    {
+        "id":  "person_0",
+        "rels":  {
+                     "spouses":  [
+                                     "person_1"
+                                 ],
+                     "children":  [
+                                      "person_2",
+                                      "person_4",
+                                      "person_30",
+                                      "person_32",
+                                      "person_83"
+                                  ]
+                 },
+        "data":  {
+                     "fn":  "Bhadru ",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  "https://static8.depositphotos.com/1009634/988/v/950/depositphotos_9883921-stock-illustration-no-user-profile-picture.jpg",
+                     "gender":  "M"
+                 }
+    },
+    {
+        "id":  "person_1",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Unknown ",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_0"
+                                 ],
+                     "children":  [
+                                      "person_2",
+                                      "person_4",
+                                      "person_30",
+                                      "person_32",
+                                      "person_83"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_2",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Parikshit",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_1",
+                     "father":  "person_0",
+                     "spouses":  [
+                                     "person_3"
+                                 ],
+                     "children":  [
+                                      "person_33"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_3",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Unknown ",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_2"
+                                 ],
+                     "children":  [
+                                      "person_33"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_4",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Nandlal",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_1",
+                     "father":  "person_0",
+                     "spouses":  [
+                                     "person_5"
+                                 ],
+                     "children":  [
+                                      "person_6",
+                                      "person_8",
+                                      "person_10"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_5",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Unknown ",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_4"
+                                 ],
+                     "children":  [
+                                      "person_6",
+                                      "person_8",
+                                      "person_10"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_6",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Prahlad",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_5",
+                     "father":  "person_4",
+                     "spouses":  [
+                                     "person_7"
+                                 ],
+                     "children":  [
+                                      "person_17",
+                                      "person_19"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_7",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Unknown ",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_6"
+                                 ],
+                     "children":  [
+                                      "person_17",
+                                      "person_19"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_8",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Haripada",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_5",
+                     "father":  "person_4",
+                     "spouses":  [
+                                     "person_9"
+                                 ],
+                     "children":  [
+                                      "person_12"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_9",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Sabitri ",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_8"
+                                 ],
+                     "children":  [
+                                      "person_12"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_10",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Kinkar ",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_5",
+                     "father":  "person_4",
+                     "spouses":  [
+                                     "person_11"
+                                 ],
+                     "children":  [
+                                      "person_27"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_11",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Unknown ",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_10"
+                                 ],
+                     "children":  [
+                                      "person_27"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_12",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Sushil Mahato ",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_9",
+                     "father":  "person_8",
+                     "spouses":  [
+                                     "person_13"
+                                 ],
+                     "children":  [
+                                      "person_14",
+                                      "person_15",
+                                      "person_16"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_13",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Sabita ",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_12"
+                                 ],
+                     "children":  [
+                                      "person_14",
+                                      "person_15",
+                                      "person_16"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_14",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Basant ",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Basant2.jpg?raw=true"
+                 },
+        "rels":  {
+                    "spouses":  [
+                                     "person_98"
+                                 ],
+                     "mother":  "person_13",
+                     "father":  "person_12"
+                 }
+    },
+    {
+        "id":  "person_15",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Prashant ",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Prashant.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_13",
+                     "father":  "person_12"
+                 }
+    },
+    {
+        "id":  "person_16",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Jharna",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Jharna.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_13",
+                     "father":  "person_12",
+                     "spouses":  [
+                                     "person_97"
+                                 ]
+                 }
+    },
+    {
+        "id":  "person_17",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Nagendra Nath",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_7",
+                     "father":  "person_6",
+                     "spouses":  [
+                                     "person_18"
+                                 ],
+                     "children":  [
+                                      "person_25",
+                                      "person_26"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_18",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Seema ",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_17"
+                                 ],
+                     "children":  [
+                                      "person_25",
+                                      "person_26"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_19",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Khagendra Nath ",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_7",
+                     "father":  "person_6",
+                     "spouses":  [
+                                     "person_20"
+                                 ],
+                     "children":  [
+                                      "person_21",
+                                      "person_23"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_20",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Unknown ",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_19"
+                                 ],
+                     "children":  [
+                                      "person_21",
+                                      "person_23"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_21",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Ajit ",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_20",
+                     "father":  "person_19",
+                     "spouses":  [
+                                     "person_22"
+                                 ],
+                     "children":  [
+                                      "person_94",
+                                      "person_95"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_22",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Unknown ",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_21"
+                                 ],
+                     "children":  [
+                                      "person_94",
+                                      "person_95"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_23",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Ajoy",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_20",
+                     "father":  "person_19",
+                     "spouses":  [
+                                     "person_24"
+                                 ],
+                     "children":  [
+                                      "person_93"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_24",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Rumpa",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_23"
+                                 ],
+                     "children":  [
+                                      "person_93"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_25",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Shalini ",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Shalini.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_18",
+                     "father":  "person_17"
+                 }
+    },
+    {
+        "id":  "person_26",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Pallavi ",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Pallavi.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_18",
+                     "father":  "person_17"
+                 }
+    },
+    {
+        "id":  "person_27",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Sushant ",
+                     "ln":  "Mahato ",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_11",
+                     "father":  "person_10",
+                     "spouses":  [
+                                     "person_28"
+                                 ],
+                     "children":  [
+                                      "person_29"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_28",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Unknown ",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_27"
+                                 ],
+                     "children":  [
+                                      "person_29"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_29",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Sister ",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_28",
+                     "father":  "person_27"
+                 }
+    },
+    {
+        "id":  "person_30",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Shrikant",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_1",
+                     "father":  "person_0",
+                     "spouses":  [
+                                     "person_31"
+                                 ],
+                     "children":  [
+                                      "person_45",
+                                      "person_47",
+                                      "person_49"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_31",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Unknown",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_30"
+                                 ],
+                     "children":  [
+                                      "person_45",
+                                      "person_47",
+                                      "person_49"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_32",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Upendra",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_1",
+                     "father":  "person_0",
+                     "spouses":  [
+                                     "person_61"
+                                 ],
+                     "children":  [
+                                      "person_67",
+                                      "person_69"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_33",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Kisto",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_3",
+                     "father":  "person_2",
+                     "spouses":  [
+                                     "person_34"
+                                 ],
+                     "children":  [
+                                      "person_35",
+                                      "person_37"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_34",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Sefali ",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_33"
+                                 ],
+                     "children":  [
+                                      "person_35",
+                                      "person_37"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_35",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Madan",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_34",
+                     "father":  "person_33",
+                     "spouses":  [
+                                     "person_36"
+                                 ],
+                     "children":  [
+                                      "person_39",
+                                      "person_40",
+                                      "person_41",
+                                      "person_42"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_36",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Mamata ",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_35"
+                                 ],
+                     "children":  [
+                                      "person_39",
+                                      "person_40",
+                                      "person_41",
+                                      "person_42"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_37",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Pradeep",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_34",
+                     "father":  "person_33",
+                     "spouses":  [
+                                     "person_38"
+                                 ],
+                     "children":  [
+                                      "person_43",
+                                      "person_44"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_38",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Chayarani",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_37"
+                                 ],
+                     "children":  [
+                                      "person_43",
+                                      "person_44"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_39",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Golapi",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_36",
+                     "father":  "person_35"
+                 }
+    },
+    {
+        "id":  "person_40",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Mallika",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_36",
+                     "father":  "person_35"
+                 }
+    },
+    {
+        "id":  "person_41",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Kanika",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_36",
+                     "father":  "person_35"
+                 }
+    },
+    {
+        "id":  "person_42",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Himanshu",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Himanshu.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_36",
+                     "father":  "person_35"
+                 }
+    },
+    {
+        "id":  "person_43",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Chandrika",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Chandrika%20.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_38",
+                     "father":  "person_37"
+                 }
+    },
+    {
+        "id":  "person_44",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Jyotika",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Jyotika.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_38",
+                     "father":  "person_37"
+                 }
+    },
+    {
+        "id":  "person_45",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Parmeshwar",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_31",
+                     "father":  "person_30",
+                     "spouses":  [
+                                     "person_46"
+                                 ],
+                     "children":  [
+                                      "person_62",
+                                      "person_64"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_46",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Manjubala",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_45"
+                                 ],
+                     "children":  [
+                                      "person_62",
+                                      "person_64"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_47",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Ramkamal ",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_31",
+                     "father":  "person_30",
+                     "spouses":  [
+                                     "person_48"
+                                 ],
+                     "children":  [
+                                      "person_54",
+                                      "person_55"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_48",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Malati",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_47"
+                                 ],
+                     "children":  [
+                                      "person_54",
+                                      "person_55"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_49",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Aditya",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_31",
+                     "father":  "person_30",
+                     "spouses":  [
+                                     "person_50"
+                                 ],
+                     "children":  [
+                                      "person_51",
+                                      "person_52",
+                                      "person_53"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_50",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Sumitra",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_49"
+                                 ],
+                     "children":  [
+                                      "person_51",
+                                      "person_52",
+                                      "person_53"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_51",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Samrat",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Samrat.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_50",
+                     "father":  "person_49"
+                 }
+    },
+    {
+        "id":  "person_52",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Nepali",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_50",
+                     "father":  "person_49"
+                 }
+    },
+    {
+        "id":  "person_53",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Dipali",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_50",
+                     "father":  "person_49"
+                 }
+    },
+    {
+        "id":  "person_54",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Bhajahari",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_48",
+                     "father":  "person_47",
+                     "spouses":  [
+                                     "person_56"
+                                 ],
+                     "children":  [
+                                      "person_58",
+                                      "person_60"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_55",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Rakhal",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_48",
+                     "father":  "person_47",
+                     "spouses":  [
+                                     "person_57"
+                                 ],
+                     "children":  [
+                                      "person_59",
+                                      "person_96"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_56",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Shyamali",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_54"
+                                 ],
+                     "children":  [
+                                      "person_58",
+                                      "person_60"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_57",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Bhawani ",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_55"
+                                 ],
+                     "children":  [
+                                      "person_59",
+                                      "person_96"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_58",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Sangita",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Tikli%20takli.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_56",
+                     "father":  "person_54"
+                 }
+    },
+    {
+        "id":  "person_59",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Kishore",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_57",
+                     "father":  "person_55"
+                 }
+    },
+    {
+        "id":  "person_60",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Biplab",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_56",
+                     "father":  "person_54"
+                 }
+    },
+    {
+        "id":  "person_61",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Unknown",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_32"
+                                 ],
+                     "children":  [
+                                      "person_67",
+                                      "person_69"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_62",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Swapan",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_46",
+                     "father":  "person_45",
+                     "spouses":  [
+                                     "person_63"
+                                 ],
+                     "children":  [
+                                      "person_65",
+                                      "person_66"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_63",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Jharna ",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_62"
+                                 ],
+                     "children":  [
+                                      "person_65",
+                                      "person_66"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_64",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Uma",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_46",
+                     "father":  "person_45"
+                 }
+    },
+    {
+        "id":  "person_65",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Mani",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Moni.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_63",
+                     "father":  "person_62"
+                 }
+    },
+    {
+        "id":  "person_66",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Abhishek",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Monir%20bhai.JPG?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_63",
+                     "father":  "person_62"
+                 }
+    },
+    {
+        "id":  "person_67",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Lalit",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_61",
+                     "father":  "person_32",
+                     "spouses":  [
+                                     "person_68"
+                                 ],
+                     "children":  [
+                                      "person_71",
+                                      "person_73"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_68",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Mirabala",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_67"
+                                 ],
+                     "children":  [
+                                      "person_71",
+                                      "person_73"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_69",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Ganesh",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_61",
+                     "father":  "person_32",
+                     "spouses":  [
+                                     "person_70"
+                                 ],
+                     "children":  [
+                                      "person_79"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_70",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Anima",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_69"
+                                 ],
+                     "children":  [
+                                      "person_79"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_71",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Yudhishthir",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_68",
+                     "father":  "person_67",
+                     "spouses":  [
+                                     "person_72"
+                                 ],
+                     "children":  [
+                                      "person_75",
+                                      "person_76"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_72",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Kalpana",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_71"
+                                 ],
+                     "children":  [
+                                      "person_75",
+                                      "person_76"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_73",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Bhim",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_68",
+                     "father":  "person_67",
+                     "spouses":  [
+                                     "person_74"
+                                 ],
+                     "children":  [
+                                      "person_77",
+                                      "person_78"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_74",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Saraswati",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_73"
+                                 ],
+                     "children":  [
+                                      "person_77",
+                                      "person_78"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_75",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Bijay",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Bijay.JPG?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_72",
+                     "father":  "person_71"
+                 }
+    },
+    {
+        "id":  "person_76",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Sujay",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Sujay.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_72",
+                     "father":  "person_71"
+                 }
+    },
+    {
+        "id":  "person_77",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Jay",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Jay.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_74",
+                     "father":  "person_73"
+                 }
+    },
+    {
+        "id":  "person_78",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Priyanka",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_74",
+                     "father":  "person_73"
+                 }
+    },
+    {
+        "id":  "person_79",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Durga Charan",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_70",
+                     "father":  "person_69",
+                     "spouses":  [
+                                     "person_80"
+                                 ],
+                     "children":  [
+                                      "person_81",
+                                      "person_82"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_80",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Sabitri",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_79"
+                                 ],
+                     "children":  [
+                                      "person_81",
+                                      "person_82"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_81",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Uttam",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Uttam.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_80",
+                     "father":  "person_79"
+                 }
+    },
+    {
+        "id":  "person_82",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Kabita",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Kabita.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_80",
+                     "father":  "person_79"
+                 }
+    },
+    {
+        "id":  "person_83",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Ishan Chandra ",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_1",
+                     "father":  "person_0",
+                     "spouses":  [
+                                     "person_84"
+                                 ],
+                     "children":  [
+                                      "person_85"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_84",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Unknown",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_83"
+                                 ],
+                     "children":  [
+                                      "person_85"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_85",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Lakshmi",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_84",
+                     "father":  "person_83",
+                     "spouses":  [
+                                     "person_86"
+                                 ],
+                     "children":  [
+                                      "person_87",
+                                      "person_88",
+                                      "person_89"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_86",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Bharat ",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_85"
+                                 ],
+                     "children":  [
+                                      "person_87",
+                                      "person_88",
+                                      "person_89"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_87",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Sanjay",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_85",
+                     "father":  "person_86",
+                     "spouses":  [
+                                     "person_90"
+                                 ],
+                     "children":  [
+                                      "person_91",
+                                      "person_92"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_88",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Sujit",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_85",
+                     "father":  "person_86"
+                 }
+    },
+    {
+        "id":  "person_89",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Sunita",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_85",
+                     "father":  "person_86"
+                 }
+    },
+    {
+        "id":  "person_90",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Seema ",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_87"
+                                 ],
+                     "children":  [
+                                      "person_91",
+                                      "person_92"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_91",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Anirban",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Anirban.JPG?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_90",
+                     "father":  "person_87"
+                 }
+    },
+    {
+        "id":  "person_92",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Aayush",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Monu%20bhai.jpg?raw=true"
+                 },
+        "rels":  {
+                     "mother":  "person_90",
+                     "father":  "person_87"
+                 }
+    },
+    {
+        "id":  "person_93",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "bhai",
+                     "ln":  "",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_24",
+                     "father":  "person_23"
+                 }
+    },
+    {
+        "id":  "person_94",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Kaya",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_22",
+                     "father":  "person_21"
+                 }
+    },
+    {
+        "id":  "person_95",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Kaira",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_22",
+                     "father":  "person_21"
+                 }
+    },
+    {
+        "id":  "person_96",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Koshik",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_57",
+                     "father":  "person_55"
+                 }
+    },
+    {
+        "id":  "person_97",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Amit",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  "https://github.com/F5Prince/Mahato-family-chart-static/blob/main/Images/Amit%20Mahato.jpg?raw=true"
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_16"
+                                 ]
+                 }
+    },
+    {
+        "id":  "person_98",
+        "data":  {
+                     "gender":  "F",
+                     "fn":  "Parwati",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "spouses":  [
+                                     "person_14"
+                                 ],
+                     "children":  [
+                                      "person_99"
+                                  ]
+                 }
+    },
+    {
+        "id":  "person_99",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Ayansh",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_98",
+                     "father":  "person_14"
+                 }
+    },
+    {
+        "id":  "person_100",
+        "data":  {
+                     "gender":  "M",
+                     "fn":  "Reyansh",
+                     "ln":  "Mahato",
+                     "birthday":  "",
+                     "avatar":  ""
+                 },
+        "rels":  {
+                     "mother":  "person_16",
+                     "father":  "person_97"
+                 }
+    }
+]
