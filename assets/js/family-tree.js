@@ -11,8 +11,8 @@ const maxZoom = 1.8;
 
 function formatName(person) {
   if (!person) return 'Unknown';
-  const first = (person.data?.['first name'] || '').trim();
-  const last = (person.data?.['last name'] || '').trim();
+  const first = (person.data?.fn || person.data?.['first name'] || '').trim();
+  const last = (person.data?.ln || person.data?.['last name'] || '').trim();
   return [first, last].filter(Boolean).join(' ').trim() || 'Unknown';
 }
 
@@ -40,16 +40,66 @@ function getBadgeText(unit) {
 }
 
 function normalizeFamilyData(records) {
-  return (records || []).map((person) => {
+  const people = records || [];
+
+  // Build reverse-relationship maps from ALL data in the JSON
+  const childrenMap = new Map(); // parentId → Set of child ids
+  const spouseMap = new Map();   // personId → Set of spouse ids
+
+  people.forEach((person) => {
+    const rels = person.rels || {};
+    const personId = person.id;
+
+    // 1) If this person has a father/mother, add them as a child of that parent
+    if (rels.father) {
+      if (!childrenMap.has(rels.father)) childrenMap.set(rels.father, new Set());
+      childrenMap.get(rels.father).add(personId);
+    }
+    if (rels.mother) {
+      if (!childrenMap.has(rels.mother)) childrenMap.set(rels.mother, new Set());
+      childrenMap.get(rels.mother).add(personId);
+    }
+
+    // 2) If this person declares children, record them (forward direction)
+    (rels.children || []).forEach((childId) => {
+      if (!childrenMap.has(personId)) childrenMap.set(personId, new Set());
+      childrenMap.get(personId).add(childId);
+    });
+
+    // 3) Record spouse relationships both ways
+    (rels.spouses || []).forEach((spouseId) => {
+      // A → B
+      if (!spouseMap.has(personId)) spouseMap.set(personId, new Set());
+      spouseMap.get(personId).add(spouseId);
+      // B → A (reverse)
+      if (!spouseMap.has(spouseId)) spouseMap.set(spouseId, new Set());
+      spouseMap.get(spouseId).add(personId);
+    });
+  });
+
+  // Augment each person with the merged relationship data
+  return people.map((person) => {
     const rels = person.rels || {};
     const parentIds = [rels.mother, rels.father, ...(rels.parents || [])].filter(Boolean);
+    const personId = person.id;
+
+    // Merge explicit spouses + reverse spouses from the map
+    const explicitSpouses = new Set((rels.spouses || []).filter(Boolean));
+    const reverseSpouses = spouseMap.get(personId) || new Set();
+    const allSpouses = new Set([...explicitSpouses, ...reverseSpouses]);
+
+    // Merge explicit children + reverse children from the map
+    const explicitChildren = new Set((rels.children || []).filter(Boolean));
+    const reverseChildren = childrenMap.get(personId) || new Set();
+    const allChildren = new Set([...explicitChildren, ...reverseChildren]);
+
     return {
       ...person,
       rels: {
         ...rels,
         parents: parentIds.filter((id, index, arr) => arr.indexOf(id) === index),
-        spouses: (rels.spouses || []).filter(Boolean),
-        children: (rels.children || []).filter(Boolean)
+        spouses: [...allSpouses],
+        children: [...allChildren]
       }
     };
   });
